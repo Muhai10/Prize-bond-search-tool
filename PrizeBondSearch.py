@@ -6,7 +6,7 @@ driver = webdriver.Chrome()
 driver.get('https://www.bb.org.bd/en/index.php/Investfacility/prizebond')
 driver.maximize_window()
 
-with open(r'F:\Secure\Prize bond.txt', 'r') as file:
+with open(r'D:\Pycharm\Project\Prize bond search tool\Prize bond.txt', 'r') as file:
     search_query = file.read().strip()
 
 # Locate the search box element (replace 'searchbox_id' with the actual ID of the search box)
